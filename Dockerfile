@@ -19,7 +19,7 @@ RUN set -xe \
 
 RUN set -xe \
     cd /usr/src \
-    && curl -fSL  "http://www.xunsearch.com/download/xunsearch-full/xunsearch-full-1.4.10.tar.bz2" -o xunsearch.tar.bz2 \
+    && curl -fSL  "http://www.xunsearch.com/download/xunsearch-full/xunsearch-full-$XUNSEARCH_VERSION.tar.bz2" -o xunsearch.tar.bz2 \
     && pwd && ls -l\
     && mkdir -p /usr/src/xunsearch \
     && tar -vxjf xunsearch.tar.bz2 -C /usr/src/xunsearch --strip-components=1 \
