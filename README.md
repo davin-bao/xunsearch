@@ -5,7 +5,7 @@ Image size only ~100MB !
 
 Very new packages (centos:7):
 
-XunSearch 1.4.10
+XunSearch latest
 
 ## Usage
 
