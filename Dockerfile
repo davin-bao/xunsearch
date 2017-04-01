@@ -2,7 +2,7 @@ FROM centos:7
 
 MAINTAINER Davin <davin.bao@gmail.com>
 
-ENV XUNSEARCH_VERSION latest
+ENV XUNSEARCH_VERSION 1.4.10
 
 RUN set -xe \
     && yum -y update
